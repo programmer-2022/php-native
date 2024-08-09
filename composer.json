@@ -1,0 +1,21 @@
+{
+    "require": {
+        "zircote/swagger-php": "^4.10",
+        "doctrine/annotations": "^2.0",
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Dao\\": "dao/",
+            "Config\\": "config/",
+            "Database\\": "database/",
+            "Exceptions\\": "exceptions/",
+            "Mappers\\": "mappers/",
+            "Routes\\": "routes/",
+            "Utils\\": "utils/",
+            "Validators\\": "validators/"
+        }
+    }
+}
